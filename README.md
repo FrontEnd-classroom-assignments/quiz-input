@@ -1,54 +1,23 @@
-# React + TypeScript + Vite
+# Simple Quiz
+Build a simple React + TypeScript application that allows a user to type in quiz questions and play a random question. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Step 1. Collect questions
+Allow the user to type a question and select its difficulty level: "Easy", "Medium", or "Hard".
+- On clicking "Add Question", the question and level should be added to an array in state.
+- Clear the form after submission.
 
-Currently, two official plugins are available:
+Step 2. Play Random Question
+- A Play button should be disabled until there are at least 3 questions in the state.
+- On clicking the button, show one random question (text + level) from the array state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+The initial view of the application. The Play button is disabled because fewer than three questions have been entered. The user can input a question and select its difficulty level.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![initial view]()
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+The user has entered at least three questions. The Play button is now enabled. After clicking it, a randomly selected question is displayed.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+![play quiz]()
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+  

@@ -17,7 +17,7 @@ The initial view of the application. The Play button is disabled because fewer t
 
 The user has entered at least three questions. The Play button is now enabled. After clicking it, a randomly selected question is displayed.
 
-![play quiz]()
+![play quiz](./src/assets/quiz_play.png)
 
 
   

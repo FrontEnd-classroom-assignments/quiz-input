@@ -13,7 +13,7 @@ Step 2. Play Random Question
 
 The initial view of the application. The Play button is disabled because fewer than three questions have been entered. The user can input a question and select its difficulty level.
 
-![initial view]()
+![initial view](./src/assets/quiz.png)
 
 The user has entered at least three questions. The Play button is now enabled. After clicking it, a randomly selected question is displayed.
 

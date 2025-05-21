@@ -10,6 +10,7 @@ Step 2. Play Random Question
 - A Play button should be disabled until there are at least 3 questions in the state.
 - On clicking the button, show one random question (text + level) from the array state.
 
+**Example Views:**
 
 The initial view of the application. The Play button is disabled because fewer than three questions have been entered. The user can input a question and select its difficulty level.
 

@@ -4,7 +4,7 @@ Build a simple React + TypeScript application that allows a user to type in quiz
 Create a new React component `QuizForm`. In that component implement the following simple quiz: 
 
 Step 1. Collect questions
-Allow the user to type a question and select its difficulty level: "Easy", "Medium", or "Hard".
+- Allow the user to type a question and select its difficulty level: "Easy", "Medium", or "Hard".
 - On clicking "Add Question", the question and level should be added to an array in state.
 - Clear the form after submission.
 

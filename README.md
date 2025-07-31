@@ -1,3 +1,5 @@
+[Suomenkielinen tehtävänanto (README.fi.md)](README.fi.md)
+
 # Simple Quiz
 Build a simple React + TypeScript application that allows a user to type in quiz questions and play a random question. 
 

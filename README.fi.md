@@ -15,3 +15,10 @@ Luo uusi React-komponentti nimeltä `QuizForm`. Toteuta siihen seuraava yksinker
 
 ### Esimerkinäkymät
 Sovelluksen alkuperäinen näkymä. Play-painike ei ole käytettävissä, koska kysymyksiä on syötetty alle kolme. Käyttäjä voi kirjoittaa kysymyksen ja valita sen vaikeustason.
+
+<img src="./src/assets/quiz.png" alt="initial view" width="60%" />
+
+Käyttäjä on tallentanut vähintään kolme kysymystä. Play- painike on nyt aktiivisena. Kun sitä klikataan, näytetään satunnainen kysymys käyttäjän tallentamista kysymyksistä.
+
+<img src="./src/assets/quiz_play.png" alt="initial view" width="55%" />
+
